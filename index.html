@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" /> 
+    <title>Document</title>
+</head>
+<body>
+    <div id="wholecontainer">
+        <div id="navigations">
+            <p></p>
+            <h1 class="myname">Manimegala V</h1>
+            <p></p>
+            <a href="#home_container" class="setclr">HOME</a>
+            <a href="#about" class="setclr">ABOUT</a>
+            <a href="#skills" class="setclr">SKILLS</a>
+            <a href="#projects" class="setclr">PROJECTS</a>
+        </div>
+        <div id="body_container">
+            <div id="home_container">
+            <div id="myself_container">
+            <div id="myself_create">
+                <div id="aboutme">
+                    <h2 class="msg">Hello</h2>
+                    <h1 class="name">I AM Manimegala</h1>
+                    <h2 class="stream">Front-End Developer</h2>
+                </div>
+                <div class="setimg">
+                    <div class="pictureset">
+                        <img src="assets/ZSTTK282.JPG" class="img"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div id="about">
+            <h1 class="h1tag">About Me</h1>
+            <div class="create_about">
+                <img src="assets/frontend.png" class="img"/>
+               <div class="about_div">
+                <ul>
+                    <li>Hi,I am Manimegala.I am from Zoho Schools of Technology,Tenkasi .</li>
+                    <li> I was born and brought up in Ulagalpuram near by Serndamaram .</li>
+                    <li>I have more interested in UI designing and I will develop UI as per user requirements.</li>
+                    <li>I am able to debug issues in my projects.</li>
+                    <li>I learned Html,Css, Js and Nodejs.</li>
+                </ul>
+           
+                </div>
+            </div> 
+            <div class="setmyid">
+                <p class="setaddress"><span class="editclr" >MAIL :</span> manimegala.v@zohocorp.com</p>
+                <p class="setaddress"><span class="editclr">ZSID :</span> ZSTTK282</p>
+            </div>
+        </div>
+        <div id="skills">
+            <h1 class="h1tag">Skills</h1>
+            <div id="create_skills_box">
+                <div id="skills_box">
+                    <div class="grid" id="gridbox1">
+                        <div class="grid-inner">
+                            <h3>90%</h3>
+                            <p class="grid-color1">Html,Css</p>
+                        </div>
+                    </div>
+                    <div class="grid" id="gridbox2">
+                        <div class="grid-inner">
+                            <h3>90%</h3>
+                            <p class="grid-color2">Vanilla Js</p>
+                        </div>
+                    </div>
+                    <div class="grid" id="gridbox3">
+                        <div class="grid-inner">
+                            <h3>70%</h3>
+                            <p class="grid-color3">Jquery</p>
+                        </div>
+                    </div>
+                    <div class="grid" id="gridbox4">
+                        <div class="grid-inner">
+                            <h3>80%</h3>
+                            <p class="grid-color4">Node Js</p>
+                        </div>
+                    </div>
+                    <div class="grid" id="gridbox5">
+                        <div class="grid-inner">
+                            <h3>40%</h3>
+                            <p class="grid-color5">React Js</p>
+                        </div>
+                    </div>
+                    <div class="grid" id="gridbox6">
+                        <div class="grid-inner">
+                            <h3>50%</h3>
+                            <p class="grid-color6">Java Basics</p>
+                        </div>
+                    </div>
+                    <div class="grid" id="gridbox7">
+                        <div class="grid-inner">
+                            <h3>70%</h3>
+                            <p class="grid-color7">Mysql</p>
+                        </div>
+                    </div>
+                    <div class="grid" id="gridbox8">
+                        <div class="grid-inner">
+                            <h3>100%</h3>
+                            <p class="grid-color8">Scratch</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="projects">
+            <h1 class="h1tag">Projects</h1> 
+            <div id="tapics">
+                <p></p>
+                <button class="topic_name" id="Projects" onclick="createlements(this,0)">Projects</button>
+                <button class="topic_name" onclick="createlements(this,1)">Vanilla Js</button>
+                <button class="topic_name" onclick="createlements(this,2)">Node Js</button>
+                <button class="topic_name" onclick="createlements(this,3)">Html,Css</button>
+            </div>
+            <div id="show_projects">
+                <div id="project_div">
+                    <div class="create_flexdiv create_repeat" id="setimg1">
+                        <div class="slidediv">
+                            <h3 class="headings">Invoice app</h3>
+                            <p class="creation_send">I have create this project in<br> a full-stack application</p>
+                            <button id="view_project"><a href="https://github.com/Priyamani2004/invoice-app" target="_blank">view</a></button>
+                        </div>
+                    </div>
+                    <div class="create_flexdiv create_repeat" id="setimg2">
+                        <div class="slidediv">
+                            <h3 class="headings">Entertainment app</h3>
+                            <p class="creation_send">I have create this project in<br> a full-stack application and <br>i have use cookie concept</p>
+                            <button id="view_project"><a href="https://github.com/Priyamani2004/Entertainment-app" target="_blank">view</a></button>
+                        </div>
+                    </div>
+                    <div class="create_flexdiv create_repeat" id="setimg3">
+                        <div class="slidediv">
+                            <h3 class="headings">Jizsaw puzzle</h3>
+                            <p class="creation_send">I have create this project in<br>Vanilla Js. I have use drag<br>and drop functionality</p>
+                            <button id="view_project"><a href="https://final-project-jigzaw-buzzle--priyamani1.repl.co/" target="_blank">view</a></button>
+                        </div>
+                    </div>
+                    <div class="create_flexdiv create_repeat" id="setimg4">
+                        <div class="slidediv">
+                            <h3 class="headings">Writer app</h3>
+                            <p class="creation_send">I have create this project in<br>a full-stack application</p>
+                            <button id="view_project"><a href="https://github.com/Priyamani2004/hardwork-success">view</a></button>
+                        </div>
+                    </div>
+                    <div class="create_flexdiv create_repeat" id="setimg5">
+                        <div class="slidediv">
+                            <h3 class="headings">Chat app</h3>
+                            <p class="creation_send">I have create this project in<br>Node Js. I have use <br>Socket.IO in this project.</p>
+                            <button id="view_project"><a href="https://github.com/Priyamani2004/node-v3-chat-app" target="_blank">view</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="project_video">
+            <h1 class="h1tag">Projects Video</Video></h1> 
+            <div class="set_videodiv">
+                <video src="assets/invoice video.webm" type="video/mp4" controls></video>
+                <video src="assets/movie (1).webm" type="video/mp4" controls></video>
+                <video src="assets/chat (1).webm" type="video/mp4" controls></video>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
