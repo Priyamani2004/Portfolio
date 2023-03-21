@@ -99,7 +99,7 @@ function createlements(element,num){
       create_repeat[j].style.display="flex";
     }
     if(num==2){
-      let jizsawpuzzle=document.getElementById("setimg4");
+      let jizsawpuzzle=document.getElementById("setimg3");
       jizsawpuzzle.style.display="none";
     }
     }
