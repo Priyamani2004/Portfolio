@@ -5,7 +5,9 @@ let discription=["In this project i used API.It's used to simpler to share a sho
 
 let htmlproject=["assets/html1.png","assets/html2.png","assets/html3.png","assets/html4.png","assets/audio.png"];
 let htmlinks=["https://html-assignment-11.priyamani1.repl.co/","https://assignment-10.priyamani1.repl.co/","https://assignment-7.priyamani1.repl.co/","https://assignment-6.priyamani1.repl.co/","https://new-page.priyamani1.repl.co/"]
-let projectlink=["https://strong-sunflower-e901fa.netlify.app/","https://cozy-genie-060880.netlify.app/","https://github.com/Priyamani2004/ToDo-list","https://js-assignment-9--priyamani1.repl.co/","https://curious-dasik-bfe741.netlify.app/","https://sensational-jalebi-5c3e7a.netlify.app/","https://js-assignment-5--priyamani1.repl.co/","https://js-assignment-4--priyamani1.repl.co/"]
+let projectlink=["https://strong-sunflower-e901fa.netlify.app/","https://cozy-genie-060880.netlify.app/","https://github.com/Priyamani2004/ToDo-list","https://js-assignment-9--priyamani1.repl.co/","https://curious-dasik-bfe741.netlify.app/","https://sensational-jalebi-5c3e7a.netlify.app/","https://js-assignment-5--priyamani1.repl.co/","https://js-assignment-4--priyamani1.repl.co/"];
+let javalinkarray=["https://github.com/Priyamani2004/java-assignment/blob/master/inheritance","https://github.com/Priyamani2004/java-assignment/blob/master/java%20Abstract","https://github.com/Priyamani2004/java-assignment/blob/master/java%20Assignment","https://github.com/Priyamani2004/java-assignment/blob/master/string%2C%20builder%2Cbuffer"];
+let javaimg=['assets/731_java.jpg','assets/731_java.jpg','assets/731_java.jpg','assets/731_java.jpg']
 function createlements(element,num){
     console.log(typeof(num))
   for(let i=0; i<topic_icons.length; i++){
@@ -45,6 +47,13 @@ function createlements(element,num){
       wholediv.style.width="1200px";
       count=5
     }
+    else if(num==4){
+      count=4;
+      imgarray=javaimg;
+      projectlinks= javalinkarray;
+      wholediv.style.height="700px";
+      wholediv.style.width="1200px";
+    }
     for(let i=0; i<count; i++){
        let create_flexdiv=document.createElement("div");
        wholediv.appendChild(create_flexdiv);
@@ -66,8 +75,11 @@ function createlements(element,num){
        if(num==1){
         paraghraph.innerText=description[i];
        }
-       else{
+       else if(num==3) {
         paraghraph.innerText="When I started learning about Html,Css I create this Web page"
+       }
+       else if(num==4){
+        paraghraph.innerText="I have create this assignment in java"
        }
 
        //create view btn//
@@ -84,7 +96,7 @@ function createlements(element,num){
 
        slidediv.setAttribute("class","slidediv");
        create_flexdiv.setAttribute("class","create_flexdiv");
-       create_flexdiv.style.backgroundImage=`url(${ imgarray[i]})`;
+        create_flexdiv.style.backgroundImage=`url(${ imgarray[i]})`;
        create_flexdiv.style.backgroundSize="100% 100%";
        create_flexdiv.style.backgroundRepeat="no-repeat";
     }
