@@ -5,7 +5,7 @@ let discription=["In this project i used API.It's used to simpler to share a sho
 
 let htmlproject=["assets/html1.png","assets/html2.png","assets/html3.png","assets/html4.png","assets/audio.png"];
 let htmlinks=["https://html-assignment-11.priyamani1.repl.co/","https://assignment-10.priyamani1.repl.co/","https://assignment-7.priyamani1.repl.co/","https://assignment-6.priyamani1.repl.co/","https://new-page.priyamani1.repl.co/"]
-let projectlink=["https://strong-sunflower-e901fa.netlify.app/","https://cozy-genie-060880.netlify.app/","https://github.com/Priyamani2004/ToDo-list","https://js-assignment-9--priyamani1.repl.co/","https://curious-dasik-bfe741.netlify.app/","https://sensational-jalebi-5c3e7a.netlify.app/","https://js-assignment-5--priyamani1.repl.co/","https://js-assignment-4--priyamani1.repl.co/"];
+let projectlink=["https://strong-sunflower-ehttps://moonlit-naiad-0262c9.netlify.app/901fa.netlify.app/","https://cozy-genie-060880.netlify.app/","https://github.com/Priyamani2004/ToDo-list","https://js-assignment-9--priyamani1.repl.co/","https://curious-dasik-bfe741.netlify.app/","https://sensational-jalebi-5c3e7a.netlify.app/","https://js-assignment-5--priyamani1.repl.co/","https://js-assignment-4--priyamani1.repl.co/"];
 let javalinkarray=["https://github.com/Priyamani2004/java-assignment/blob/master/inheritance","https://github.com/Priyamani2004/java-assignment/blob/master/java%20Abstract","https://github.com/Priyamani2004/java-assignment/blob/master/java%20Assignment","https://github.com/Priyamani2004/java-assignment/blob/master/string%2C%20builder%2Cbuffer"];
 let javaimg=['assets/731_java.jpg','assets/731_java.jpg','assets/731_java.jpg','assets/731_java.jpg']
 function createlements(element,num){
